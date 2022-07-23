@@ -3,7 +3,7 @@ import '../styles/globals.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Drawer, DrawerBody, DrawerContent, DrawerOverlay } from '@chakra-ui/modal'
 
-import theme from './theme';
+import theme from '../theme';
 import Sidebar from '../components/Sidebar';
 import { useState } from 'react';
 import Header from '../components/Header';

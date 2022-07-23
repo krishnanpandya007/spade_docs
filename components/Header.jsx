@@ -3,7 +3,8 @@ import Image from 'next/image'
 import { useColorMode } from '@chakra-ui/color-mode';
 // import { color } from '@chakra-ui/styled-system';
 import {MoonIcon, SunIcon} from '@chakra-ui/icons'
-import theme from '../pages/theme_colors'
+import theme from '../theme_colors'
+
 import { IconButton } from '@chakra-ui/button';
 function Header({isMobileTab}) {
 
