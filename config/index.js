@@ -1,4 +1,8 @@
 export const docs_menu_options = [
+  {
+    seperator: true,
+    title: 'Basic Docs'
+  },
     {
         name: 'welcome', // Must have _docs/welcome.mdx$
         title: 'Welcome',
@@ -18,6 +22,16 @@ export const docs_menu_options = [
     {
       name: 'cookies-policy', // Must have _docs/welcome.mdx$
       title: 'Cookies policy',
+    },
+    {
+      seperator: true,
+      title: 'Features'
+    },{
+      name: 'feature-delink-post', // Must have _docs/welcome.mdx$
+      title: 'De-linking Post',
+    },{
+      name: 'feature-clone-recommendation', // Must have _docs/welcome.mdx$
+      title: 'Clone Recommendation (BETA)',
     }
   ]
 

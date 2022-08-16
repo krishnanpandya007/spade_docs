@@ -18,6 +18,8 @@ function Sidebar() {
         {
           docs_menu_options.map((val, idx) => {
             return(
+              typeof val.seperator !== 'undefined' ? 
+              <b><i><h2 style={{color: 'grey',fontFamily: 'Poppins', fontWeight: '900', margin: '2rem 0.5rem 0.5rem 0.5rem'}}>{val.title}</h2></i></b>:
               <Link key={idx} href={`/${val.name}`}>       
                 <a>
                   <button onFocus={(e) => {e.target.style.backgroundColor = '#9CB4CC70'}} onBlur={(e) => { e.target.style.backgroundColor = ''}} className={"sidebar__button" + (router.asPath === ('/' + val.name) ? " active_sidebar__button" : "")}>{val.title}</button>

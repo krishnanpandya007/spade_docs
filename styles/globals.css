@@ -80,7 +80,7 @@ header{
 
 .docs__content p{
   /* color: red; */
-  padding: 0.7rem 0;
+  padding: 0.8rem 0;
   font-size: small;
   font-family: 'Poppins';
 }
@@ -102,8 +102,18 @@ header{
 .docs__content a {
   text-decoration: none;
   color: #A149FF;
+  font-size: 1.1rem;
+  margin-top: 5%;
 }
 
+.docs__content a:before{
+  content: '🔗 ';
+  font-size: small;
+
+}
+hr{
+  margin-bottom: 10rem;
+}
 .docs__content a:hover{
   text-decoration: underline;
 }
@@ -121,4 +131,8 @@ header{
 .content__textarea::placeholder{
   font-size: 0.8rem !important;
   padding-left: 0;
+}
+
+a > em{
+  margin-top: 5rem !important;
 }

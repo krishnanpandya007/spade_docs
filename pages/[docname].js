@@ -14,12 +14,6 @@ function DocName({doccontent}) {
 
   const router = useRouter();
 
-    React.useEffect(() => {
-
-      console.log(router.asPath.slice(1, router.asPath.length))
-
-    }, [router.asPath])
-
     return (
     <div className="docs__content_main">
       <div style={{padding: '2rem'}} className="docs__content" dangerouslySetInnerHTML={{__html:marked(doccontent)}} />
@@ -82,7 +76,8 @@ function FeedbackForm() {
 
 export async function getStaticPaths() {
 
-  const docs_paths = docs_menu_options.map((val, idx) => {
+  const docs_paths = docs_menu_options.filter((val) => typeof val.seperator === 'undefined').map((val, idx) => {
+    
     return {params: {docname: val.name}}
   })
 
