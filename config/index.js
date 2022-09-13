@@ -29,9 +29,22 @@ export const docs_menu_options = [
     },{
       name: 'feature-delink-post', // Must have _docs/welcome.mdx$
       title: 'De-linking Post',
-    },{
+    },
+    {
+      name: 'feature-daily-share', // Must have _docs/welcome.mdx$
+      title: 'Daily Share',
+    }
+    ,{
       name: 'feature-clone-recommendation', // Must have _docs/welcome.mdx$
       title: 'Clone Recommendation (BETA)',
+    },
+    {
+      seperator: true,
+      title: 'Patch Notes'
+    },
+    {
+      name: 'patch-notes-0-0',
+      title: 'Version 0.0'
     }
   ]
 

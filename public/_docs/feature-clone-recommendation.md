@@ -4,12 +4,12 @@
 -----  
 
 
-# [*Reason*](#what-is-spade) 
+# [*Reason*](#clone-recommendation-reason) 
 By intorducing this feature to spade users, our motive is to divesify interest of the user, you can explore new types of posts/content instantly
 
 But the benifit here is that you can directionize your diversity, i want to some new posts but only which are viewed by `Sam`(Any your friend)
 
-# [*Concept*](#what-is-spade) 
+# [*Concept*](#clone-recommendation-concept) 
 
 By Cloning specific user's recommendation you can view the `related_posts` filter differently similar to that user's home page
 
