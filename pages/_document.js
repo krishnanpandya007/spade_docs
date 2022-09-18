@@ -14,6 +14,13 @@ export default class Document extends NextDocument {
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet"></link>
             <link rel="icon" href="/favicon.ico" />
             <link href="https://fonts.googleapis.com/css2?family=Iter:wght@200;300&family=Poppins:ital,wght@0,100;0,300;1,600&display=swap" rel="stylesheet"></link>
+            <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+<link rel="manifest" href="/manifest.json" />
+<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+
+        
         </Head>
         <body>
           {/* 👇 Here's the script */}

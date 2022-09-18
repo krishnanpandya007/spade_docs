@@ -1,12 +1,12 @@
 {
-    "theme_color": "#3DB2FF",
+    "theme_color": "#ffffff",
     "background_color": "#faf8f4",
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
-    "start_url": "/",
-    "name": "Spade",
-    "short_name": "spade",
+    "start_url": "/welcome",
+    "name": "Spade Docs",
+    "short_name": "spade_docs",
     "description": "Connecting Hacks to Life",
     "icons": [
         {
