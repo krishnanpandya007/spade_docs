@@ -12,12 +12,11 @@ import Header from '../components/Header';
 function MyApp({ Component, pageProps }) {
 
   const [openSidebar, setOpenSidebar] = useState(true);
-  const isMobileTab = false;
 
   return (
     <>
     <ChakraProvider theme={theme}>
-      <Header isMobileTab={isMobileTab} />
+      <Header handleToggleSidebar={() => { setOpenSidebar(curr => !curr )}} />
       <div style={{display: 'flex'}}>
       {openSidebar && <Sidebar />}
 
